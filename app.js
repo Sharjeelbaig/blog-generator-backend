@@ -9,7 +9,7 @@ var generateRouter = require('./routes/generate');
 var app = express();
 
 const corsOptions = {
-    origin: 'https://blog-generator-frontend.azurewebsites.net',
+    origin: 'https://blogificator.vercel.app',
     optionsSuccessStatus: 200 // some legacy browsers (e.g., IE11) choke on 204
   };
   
