@@ -20,10 +20,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', generateRouter);
+app.use('/', indexRouter);
 app.use('/generate', generateRouter);
 
 module.exports = app;
-
-
-
