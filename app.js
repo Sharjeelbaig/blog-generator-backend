@@ -9,7 +9,7 @@ var generateRouter = require('./routes/generate');
 var app = express();
 
 const corsOptions = {
-    origin: 'https://blogificator.vercel.app',
+    origin: 'https://shazi-blogify.vercel.app',
     optionsSuccessStatus: 200 // some legacy browsers (e.g., IE11) choke on 204
   };
   

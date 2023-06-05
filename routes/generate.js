@@ -49,7 +49,7 @@ async function generateBody(tag) {
   }
 }
 
-const whitelist = ['https://blog-generator-frontend.azurewebsites.net'];
+const whitelist = ['https://shazi-blogify.vercel.app'];
 const corsOptions = {
   origin: function (origin, callback) {
     if (whitelist.indexOf(origin) !== -1 || !origin) {
